@@ -1,0 +1,102 @@
+body{
+  background-color: rgb(97,97,97);
+}
+
+.logo{
+  width: 150px;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+}
+.barra-navegacion{
+margin-top: 0.5rem;
+}
+.barra-slogan{
+  width: 100%;
+  height: 50%;
+
+  /*margin-top: 3.8rem;
+  margin-bottom: -1.3rem;*/
+}
+.slogan{
+  font-size: 2rem;
+  color: white;
+}
+
+.tamano{
+  min-height: 350px;
+  margin-left: 0.5rem;
+}
+.tamano-img{
+  width: 73%;
+}
+.tamano-vertical{
+  width: 100%;
+}
+.etiqueta{
+  background-color: gray;
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.contenido{
+  margin-top: 1rem;
+}
+.retrato{
+  width:250px;
+  height:300px;
+  border-radius:150px;
+
+}
+.imagen-pequena{
+  width: 30rem;
+}
+.fila-junta{
+  float: left;
+  margin-right:0.5rem;
+}
+
+.titulo{
+  color: white;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.barra-superior{
+  min-height: 4rem;
+}
+div[class*="columna"]{
+  min-height: 50rem;
+  /*border: 1px solid #eceff1;*/
+}
+div[class*="bloque"]{
+  height: 25rem;
+}
+.columna-chat, .columna-news{
+  padding: 0 !important;
+}
+.contenedor-write-publicacion{
+  min-height: 7rem;
+}
+.contenedores-publicaciones{
+  padding: 2rem;
+  min-height: 17rem;
+}
+
+.contenedor-noticias{
+  min-height: 50rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+.ultimas-noticias{
+  border: 0.6rem solid #ff8f00;
+  border-radius: 5px;
+}

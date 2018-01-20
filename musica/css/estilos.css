@@ -1,0 +1,180 @@
+.movies-column {
+  margin-top: 0px;
+  /*background: #00678E;*/
+  background: white;
+  min-height: 300px;
+  /*border: 1px dashed black;*/
+}
+.comentarios{
+  margin-top: 0px;
+  /*background: #00678E;*/
+  background: white;
+  min-height:150px;
+  /*border: 1px dashed black;*/
+}
+
+.logo{
+  width: 30%;
+  padding-top: 20%;
+}
+.avatar{
+  width: 80%;
+  padding-top: 30%;
+  padding-left: 10%;
+}
+
+.redes{
+  width: 10%;
+  border-radius: 5px;
+  padding-top: 5%;
+
+  /*padding-top: 50%;*/
+}
+
+.fila-redes{
+  min-height: 100px;
+  background: white;
+}
+
+.marco{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+body{
+  background:#7b262c;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.navbar{
+  width: 100%;
+}
+.navegacion{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.imagen{
+  padding-left: 10%;
+  padding-top: 5%;
+  width: 100%;
+}
+.imagen2{
+  padding-left: 5%;
+  margin-left: 5%;
+  padding-top: 5%;
+  width: 90%;
+}
+.final{
+  margin-bottom: 40%;
+}
+.justificado{
+  text-align: justify;
+
+}
+
+.nav{
+  background: black;
+}
+
+ul li .nav-link{
+  color: white;
+}
+.busqueda{
+  padding-top: 10%;
+}
+
+.busquedas {
+  /*margin-top: 0px;*/
+  /*background: #00678E;*/
+  background: white;
+  min-height: 900px;
+  /*border: 1px dashed black;*/
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  .right-column {
+    display: none;
+  }
+  .mostrar-menu{
+  display:block;
+  }
+  .movies-column {
+    min-height: 100px;
+  }
+  .columna-oculta{
+    display: none;
+  }
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .right-column {
+    display: none;
+  }
+  .mostrar-menu{
+  display:block;
+  }
+  .movies-column {
+    min-height: 100px;
+  }
+  .columna-oculta{
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .right-column {
+    display: none;
+  }
+  .mostrar-menu{
+  display:block;
+  }
+  .movies-column {
+    min-height: 100px;
+  }
+  .columna-oculta{
+    display: none;
+  }
+}
+
+
+/*De aqui son los grandes dispositivos*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .right-column {
+    display:block;
+  }
+.mostrar-menu{
+  display:none;
+}
+.movies-column {
+  min-height: 300px;
+}
+.columna-oculta{
+  display: block;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .right-column {
+    display:block;
+  }
+.mostrar-menu{
+  display:none;
+}
+.movies-column {
+  min-height: 300px;
+}
+.columna-oculta{
+  display: block;
+}
+}
